@@ -1,0 +1,20 @@
+$ git clone maryrose-hw rexclone
+Cloning into 'rexclone'...
+done.
+$ cd rexclone/
+$ git branch rexbranchmary
+$ git checkout rexbranchmary
+Switched to branch 'rexbranchmary'
+$ git add homework.js 
+$ git commit -m 'add comment to line 6 on if apple quantity'
+[rexbranchmary f94601b] add comment to line 6 on if apple quantity
+ 1 file changed, 1 insertion(+)
+$ git push origin rexbranchmary
+Counting objects: 3, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 336 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To /home/ccuser/workspace/js-homework/maryrose-hw
+ * [new branch]      rexbranchmary -> rexbranchmary
+$ 
